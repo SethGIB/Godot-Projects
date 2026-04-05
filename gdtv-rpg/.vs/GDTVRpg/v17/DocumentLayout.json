@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dev\\game-dev\\Godot-Projects\\gdtv-rpg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C90191-9DC1-4913-83E6-526F5EB40F6B}|GDTVRpg.csproj|d:\\dev\\game-dev\\godot-projects\\gdtv-rpg\\scripts\\levels\\mainsceneroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C90191-9DC1-4913-83E6-526F5EB40F6B}|GDTVRpg.csproj|solutionrelative:scripts\\levels\\mainsceneroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainSceneRoot.cs",
+              "DocumentMoniker": "D:\\dev\\game-dev\\Godot-Projects\\gdtv-rpg\\Scripts\\Levels\\MainSceneRoot.cs",
+              "RelativeDocumentMoniker": "Scripts\\Levels\\MainSceneRoot.cs",
+              "ToolTip": "D:\\dev\\game-dev\\Godot-Projects\\gdtv-rpg\\Scripts\\Levels\\MainSceneRoot.cs",
+              "RelativeToolTip": "Scripts\\Levels\\MainSceneRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T16:50:36.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
