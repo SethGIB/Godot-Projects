@@ -76,6 +76,9 @@
 [ext_resource type="Texture2D" uid="uid://d2b82jrfjy8tl" path="res://Assets/Sprites/Characters/Player/Sliding/Sliding_003.png" id="73_yeptj"]
 [ext_resource type="Texture2D" uid="uid://bnkt63w8rqucn" path="res://Assets/Sprites/Characters/Player/Sliding/Sliding_004.png" id="74_txnho"]
 [ext_resource type="Texture2D" uid="uid://4qkv5e4s2m3f" path="res://Assets/Sprites/Characters/Player/Sliding/Sliding_005.png" id="75_73vo8"]
+[ext_resource type="Script" uid="uid://coj4dsxhcuq1b" path="res://Scenes/Characters/Player/PlayerIdleState.cs" id="77_wbhcw"]
+[ext_resource type="Script" uid="uid://cmmy2b6bjqx34" path="res://Scenes/Characters/Player/PlayerMoveState.cs" id="78_42ry0"]
+[ext_resource type="Script" uid="uid://ci5oyqjib8bst" path="res://Scenes/Characters/StateMachine.cs" id="79_smuux"]
 
 [sub_resource type="Animation" id="Animation_0ngje"]
 length = 0.001
@@ -217,3 +220,14 @@ texture = ExtResource("1_eynj4")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=339799755]
 libraries/ = SubResource("AnimationLibrary_kffoi")
+
+[node name="idle_state" type="Node" parent="." unique_id=1806311230]
+script = ExtResource("77_wbhcw")
+
+[node name="move_state" type="Node" parent="." unique_id=804539636]
+script = ExtResource("78_42ry0")
+
+[node name="StateMachine" type="Node" parent="." unique_id=491020094 node_paths=PackedStringArray("CurrentState", "AnimationStates")]
+script = ExtResource("79_smuux")
+CurrentState = NodePath("../idle_state")
+AnimationStates = [NodePath("../idle_state"), NodePath("../move_state")]
